@@ -213,6 +213,42 @@
     color:var(--dourado);
     white-space:nowrap;
   }
+  .antes-depois{margin-top:24px;}
+  .antes-depois h2{
+    text-align:center;
+    font-size:1.15rem;
+    font-weight:600;
+    color:var(--dourado);
+    margin-bottom:14px;
+    letter-spacing:1px;
+  }
+  .ad-grade{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:12px;
+  }
+  .ad-grade figure{
+    margin:0;
+    border-radius:14px;
+    overflow:hidden;
+    border:1px solid var(--nude-escuro);
+    background:#fff;
+  }
+  .ad-grade img{
+    width:100%;
+    aspect-ratio:1/1;
+    object-fit:cover;
+    display:block;
+  }
+  .ad-grade figcaption{
+    text-align:center;
+    font-size:.75rem;
+    font-weight:600;
+    letter-spacing:.5px;
+    text-transform:uppercase;
+    color:var(--dourado);
+    padding:6px 0;
+  }
   .rodape{
     text-align:center;
     padding:34px 24px 0;
@@ -366,6 +402,20 @@
             <span class="produto-preco">R$ 200</span>
           </div>
         </a>
+      </div>
+
+      <div class="antes-depois">
+        <h2>Antes &amp; Depois</h2>
+        <div class="ad-grade">
+          <figure>
+            <img src="fotos/antes.jpeg" alt="Antes da micropigmentação labial" loading="lazy" decoding="async">
+            <figcaption>Antes</figcaption>
+          </figure>
+          <figure>
+            <img src="fotos/depois.jpeg" alt="Depois da micropigmentação labial" loading="lazy" decoding="async">
+            <figcaption>Depois</figcaption>
+          </figure>
+        </div>
       </div>
     </section>
 
